@@ -1,0 +1,23 @@
+{
+    "name": "restaurant-roulette-api",
+    "version": "0.1.0",
+    "description": "Node.js + Express microservice for Restaurant-Roulette iOS app",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com/zmfrew/restaurant-roulette-api.git"
+    },
+    "dependencies": {
+        "express": "~4.16.4",
+        "lodash": "~4.17.11",
+        "semver": "~5.6.0",
+        "superagent": "~4.1.0"
+    },
+    "main": "/app.js",
+    "scripts": {
+        "start": "node /src/app.js"
+    },
+    "engines": {
+        "node": "~10.15.0",
+        "npm": "~6.4.1"
+    }
+}
